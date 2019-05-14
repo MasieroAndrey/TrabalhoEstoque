@@ -55,6 +55,7 @@
     <Compile Include="Model\Produto.cs" />
     <Compile Include="Model\Receita.cs" />
     <Compile Include="Model\Usuario.cs" />
+    <Compile Include="Utils\Validacao.cs" />
     <Compile Include="View\CadastrarProduto.cs" />
     <Compile Include="View\CadastrarUsuario.cs" />
     <Compile Include="View\FazerLogin.cs" />
