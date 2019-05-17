@@ -13,7 +13,7 @@ namespace Estoque.Model
         public Context() : base("Banco Receitas") { }
         public DbSet<Endereco> Endereco { get; set; }
         public DbSet<Estoque> Estoque { get; set; }
-        public DbSet<Ingrediente> Ingredientes { get; set; }
+        public DbSet<Ingrediente> Ingrediente { get; set; }
         public DbSet<ProdutoFinal> ProdutoFinal { get; set; }
         public DbSet<Receita> Receita { get; set; }
         public DbSet<Usuario> Usuario { get; set; }

@@ -11,9 +11,13 @@ namespace Estoque.Model
     [Table("IngredientesReceita")]
     class IngredientesReceita
     {
+        public IngredientesReceita()
+        {
+
+        }
         [Key]
         public int Ingredientes_ReceitaID { get; set; }
-        public Ingrediente Ingrediente { get; set; }
+        public List<Ingrediente> Ingrediente { get; set; }
         public int QuantidadeNecessaria { get; set; }
     }
 }

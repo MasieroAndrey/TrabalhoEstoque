@@ -11,7 +11,11 @@ namespace Estoque.DAL
     {
         private static Context ctx = SingletonContext.GetInstance();
 
-
+        //Testar Metodo
+        public static Endereco BuscarEnderereo(Usuario u)
+        {
+            return ctx.Endereco.FirstOrDefault(x => x.Login.Equals(u.Login));
+        }
 
     }
 }

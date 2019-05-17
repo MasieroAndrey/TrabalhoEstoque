@@ -13,6 +13,7 @@ namespace Estoque.Model
     {
         public Receita()
         {
+            IngredientesReceita = new List<IngredientesReceita>();
             CadastradadoEm = DateTime.Now;
         }
         [Key]
