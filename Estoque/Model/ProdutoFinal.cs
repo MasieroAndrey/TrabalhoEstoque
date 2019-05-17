@@ -11,6 +11,10 @@ namespace Estoque.Model
     [Table("ProdutoFinal")]
     class ProdutoFinal
     {
+        public ProdutoFinal()
+        {
+            ProduzidoEm = DateTime.Now;
+        }
         [Key]
         public int ProdutoID { get; set; }
         public Receita Receita { get; set; }

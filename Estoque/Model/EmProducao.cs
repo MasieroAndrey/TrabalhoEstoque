@@ -11,6 +11,10 @@ namespace Estoque.Model
     [Table("EmProducao")]
     class EmProducao
     {
+        public EmProducao()
+        {
+            DataProducao = DateTime.Now;
+        }
         [Key]
         public int EmProducaoID { get; set; }
         public List<Estoque> Estoque { get; set; }

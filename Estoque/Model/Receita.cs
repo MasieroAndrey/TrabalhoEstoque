@@ -11,6 +11,10 @@ namespace Estoque.Model
     [Table("Receita")]
     class Receita
     {
+        public Receita()
+        {
+            CadastradadoEm = DateTime.Now;
+        }
         [Key]
         public int ReceitaID { get; set; }
         public List<IngredientesReceita> IngredientesReceita { get; set; }

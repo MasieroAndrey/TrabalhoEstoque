@@ -8,9 +8,14 @@ using System.Threading.Tasks;
 
 namespace Estoque.Model
 {
-   [Table("Usuario")]
+    [Table("Usuario")]
     class Usuario
     {
+        public Usuario()
+        {
+            DataCadastro = DateTime.Now;
+        }
+
         [Key]
         public int UsuarioID { get; set; }
         public ProdutoFinal Produto { get; set; }
