@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace Estoque.Model
 {
-    [Table("Produto")]
-    class Produto
+    [Table("EmProducao")]
+    class EmProducao
     {
         [Key]
-        public int ProdutoID { get; set; }
+        public int EmProducaoID { get; set; }
+        public List<Estoque> Estoque { get; set; }
         public Receita Receita { get; set; }
-        public double Preco { get; set; }
-        public int Quantidade { get; set; }
-        public int Porcoes { get; set; }
-        public DateTime ProduzidoEm { get; set; }
+        public DateTime DataProducao { get; set; }
+        public int QuantidadeReceitas { get; set; }
+
     }
 }

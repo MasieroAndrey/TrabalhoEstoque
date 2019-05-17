@@ -14,7 +14,7 @@ namespace Estoque.Model
         public DbSet<Endereco> Endereco { get; set; }
         public DbSet<Estoque> Estoque { get; set; }
         public DbSet<Ingrediente> Ingredientes { get; set; }
-        public DbSet<Produto> Produto { get; set; }
+        public DbSet<ProdutoFinal> ProdutoFinal { get; set; }
         public DbSet<Receita> Receita { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
 

@@ -13,12 +13,12 @@ namespace Estoque.Model
     {
         [Key]
         public int UsuarioID { get; set; }
-        public Produto Produto { get; set; }
+        public ProdutoFinal Produto { get; set; }
+        public Historico Historico { get; set; }
         public string Nome { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
         public string Cpf { get; set; }
-        public double SaldoConta { get; set; }
         public DateTime DataCadastro { get; set; }
         public DateTime UltimoLogin { get; set; }
     }

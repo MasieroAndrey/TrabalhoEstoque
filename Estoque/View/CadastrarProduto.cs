@@ -11,7 +11,7 @@ namespace Estoque.View
     {
         public static void Renderizar()
         {
-            Produto p = new Produto();
+            ProdutoFinal p = new ProdutoFinal();
             Console.WriteLine("  -- CADASTRAR PRODUTO --\n");
             //Console.WriteLine("Digite o nome do produto:");
             //p.Nome = Console.ReadLine();

@@ -8,13 +8,12 @@ using System.Threading.Tasks;
 
 namespace Estoque.Model
 {
-    [Table("Ingrediente")]
-    class Ingrediente
+    [Table("IngredientesReceita")]
+    class IngredientesReceita
     {
         [Key]
-        public int IngredienteID { get; set; }
-        public string Nome { get; set; }
-        public DateTime CadastradoEm { get; set; }
-        public string Descricao { get; set; }
+        public int Ingredientes_ReceitaID { get; set; }
+        public Ingrediente Ingrediente { get; set; }
+        public int QuantidadeNecessaria { get; set; }
     }
 }

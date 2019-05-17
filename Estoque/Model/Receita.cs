@@ -13,9 +13,11 @@ namespace Estoque.Model
     {
         [Key]
         public int ReceitaID { get; set; }
-        public List<Ingrediente> Ingrediente { get; set; }
+        public List<IngredientesReceita> IngredientesReceita { get; set; }
+        public string ModoPreparo { get; set; }
         public string Nome { get; set; }
-        public int Quantidade { get; set; }
-        public DateTime CriadoEm { get; set; }
+        public int Rendimento { get; set; }
+        public DateTime TempoPreparo { get; set; }
+        public DateTime CadastradadoEm { get; set; }
     }
 }

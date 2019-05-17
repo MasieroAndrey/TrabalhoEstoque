@@ -49,10 +49,13 @@
     <Compile Include="DAL\UsuarioDAO.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Context.cs" />
+    <Compile Include="Model\EmProducao.cs" />
     <Compile Include="Model\Endereco.cs" />
     <Compile Include="Model\Estoque.cs" />
+    <Compile Include="Model\Historico.cs" />
     <Compile Include="Model\Ingrediente.cs" />
-    <Compile Include="Model\Produto.cs" />
+    <Compile Include="Model\Ingredientes_Receita.cs" />
+    <Compile Include="Model\ProdutoFinal.cs" />
     <Compile Include="Model\Receita.cs" />
     <Compile Include="Model\Usuario.cs" />
     <Compile Include="Utils\Validacao.cs" />
