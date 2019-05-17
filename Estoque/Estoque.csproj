@@ -45,6 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\EmProducaoDAO.cs" />
+    <Compile Include="DAL\EnderecoDAO.cs" />
+    <Compile Include="DAL\EstoqueDAO.cs" />
+    <Compile Include="DAL\IngredienteDAO.cs" />
+    <Compile Include="DAL\IngredienteReceitaDAO.cs" />
+    <Compile Include="DAL\ProdutoFinalDAO.cs" />
+    <Compile Include="DAL\ReceitaDAO.cs" />
     <Compile Include="DAL\SingletonContext.cs" />
     <Compile Include="DAL\UsuarioDAO.cs" />
     <Compile Include="Migrations\Configuration.cs" />
