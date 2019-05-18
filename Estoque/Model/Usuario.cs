@@ -14,12 +14,14 @@ namespace Estoque.Model
         public Usuario()
         {
             DataCadastro = DateTime.Now;
+            Endereco = new Endereco();
         }
 
         [Key]
         public int UsuarioID { get; set; }
         public ProdutoFinal Produto { get; set; }
         public Historico Historico { get; set; }
+        public Endereco Endereco { get; set; }
         public string Nome { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }

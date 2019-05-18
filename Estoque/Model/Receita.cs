@@ -13,12 +13,12 @@ namespace Estoque.Model
     {
         public Receita()
         {
-            IngredientesReceita = new List<IngredientesReceita>();
+            IngredientesReceita = new List<IngredienteReceita>();
             CadastradadoEm = DateTime.Now;
         }
         [Key]
         public int ReceitaID { get; set; }
-        public List<IngredientesReceita> IngredientesReceita { get; set; }
+        public List<IngredienteReceita> IngredientesReceita { get; set; }
         public string ModoPreparo { get; set; }
         public string Nome { get; set; }
         public int Rendimento { get; set; }

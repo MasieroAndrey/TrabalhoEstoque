@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 namespace Estoque.Model
 {
     [Table("IngredientesReceita")]
-    class IngredientesReceita
+    class IngredienteReceita
     {
-        public IngredientesReceita()
+        public IngredienteReceita()
         {
 
         }

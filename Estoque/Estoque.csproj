@@ -61,7 +61,7 @@
     <Compile Include="Model\Estoque.cs" />
     <Compile Include="Model\Historico.cs" />
     <Compile Include="Model\Ingrediente.cs" />
-    <Compile Include="Model\Ingredientes_Receita.cs" />
+    <Compile Include="Model\IngredienteReceita.cs" />
     <Compile Include="Model\ProdutoFinal.cs" />
     <Compile Include="Model\Receita.cs" />
     <Compile Include="Model\Usuario.cs" />

@@ -13,7 +13,6 @@ namespace Estoque.Model
     {
         [Key]
         public int EnderecoID { get; set; }
-        public Usuario Usuario { get; set; }
         public string Rua { get; set; }
         public string Cep { get; set; }
         public string Numero { get; set; }

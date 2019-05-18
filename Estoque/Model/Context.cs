@@ -17,6 +17,9 @@ namespace Estoque.Model
         public DbSet<ProdutoFinal> ProdutoFinal { get; set; }
         public DbSet<Receita> Receita { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
+        public Dbset<EmProducao> EmProducao { get; set; }
+        public Dbset<Historico> Historico { get; set; }
+        public Dbset<IngredienteReceita> IngredienteReceita { get; set; }
 
     }
 }
